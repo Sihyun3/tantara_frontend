@@ -7,16 +7,20 @@
     padding: 0px;
     color: #000;
   }
+
 .mainBox {
     width: 1200px;
     margin: 100px auto;
 }
+
 .mainText {
     font-size: 50px;
 }
+
 .firstLine {
     margin-top: 30px;
 }
+
 .online {
     width: 548px;
     height: 328px;
@@ -28,6 +32,7 @@
     vertical-align: bottom;
 
 }
+
 .online p {
     margin-top: 180px;
     margin-left: 20px;
@@ -44,6 +49,7 @@
     margin-top: 110px;
     margin-left: 20px;
 }
+
 .offline {
     width: 548px;
     height: 328px;
@@ -53,6 +59,7 @@
     font-weight: bold;
     text-align: left;
 }
+
 .musicSep {
     width: 550px;
     height: 243px;
@@ -62,6 +69,7 @@
     font-weight: bold;
     text-align: left;
 }
+
 .community {
     width: 550px;
     height: 243px;
