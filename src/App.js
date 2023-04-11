@@ -5,6 +5,11 @@ import Login from './Login/Login'
 // import SignUp from './SignUp/SignUp';
 // import TipList from './TipList/TipList';
 import ReportPage from './Report/ReportPage';
+import SignUp from './SignUp/SignUp';
+import TipList from './TipList/TipList';
+import Notice from './Admin-Notice/Notice';
+
+
 
 function App() {
   return (
@@ -14,6 +19,10 @@ function App() {
       <ReportPage/>
       {/* <SignUp/> */}
       {/* <TipList/> */}
+    {/* <Login/> */}
+    {/* <SignUp/> */}
+    {/* <TipList/> */}
+    <Notice/>
     </>
         )
   }
