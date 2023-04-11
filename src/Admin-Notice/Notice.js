@@ -1,7 +1,7 @@
-import style from './TipList.module.css'
+import style from './Notice.module.css'
 import searchImg from 'C:/tantara/tantara_frontend/src/TipList/searchImg.png'
 
-const TipList = () => {
+const Notice = () => {
     return (
         <>
             <div className={style.nav}>
@@ -14,34 +14,34 @@ const TipList = () => {
                 </ul>
             </div>
             <div className={style.box1}>
-                <h1>게시판</h1>
+                <h1>공지사항</h1>
             </div>
             <div className={style.leftbox}>
-                <button className={style.good}>좋아요순</button>
+                <button className={style.date}>작성일자</button>
             </div>
             <div className={style.rightbox}>
                 <input type="text" className={style.search} />
-                <img className={style.searchImg} src={searchImg}/>
+                <img className={style.searchImg} src={searchImg} />
             </div>
             <div className={style.write}>
-            <button className={style.writebutton}>작성</button>
+                <button className={style.writebutton}>작성</button>
+                <button className={style.delete}>삭제</button>
             </div>
             <div className={style.list}>
+                <input type="checkbox" className={style.checkbox}/>
                 <a className={style.title}>제목</a>
-                <a className={style.heart}>♡</a>
-                <a className={style.count}>00</a>
                 <a className={style.writer}>작성자</a>
             </div>
             <div className={style.list}>
+                <input type="checkbox" className={style.checkbox}/>
                 <a className={style.title}>제목</a>
-                <a className={style.heart}>♡</a>
-                <a className={style.count}>00</a>
                 <a className={style.writer}>작성자</a>
             </div>
+           
         </>
     )
 
 
 }
 
-export default TipList;
+export default Notice;

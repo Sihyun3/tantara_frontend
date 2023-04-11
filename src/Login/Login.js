@@ -1,7 +1,7 @@
 import style from './Login.module.css';
 import { Link } from 'react-router-dom';
-import KakaoLogo from 'C:/tantara/tantara_frontend/src/Login/KakaoLogo.png';
-import NaverLogo from 'C:/tantara/tantara_frontend/src/Login/NaverLogo.png';
+import KakaoLogo from  './KakaoLogo.png';
+import NaverLogo from './NaverLogo.png';
 
 const Login = () => {
     return (
