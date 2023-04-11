@@ -1,7 +1,8 @@
 import style from './Main.module.css';
+import '../reset.css'
 const Main = () => {
     return (
-        <>
+        <div className="container">
             <div className={style.mainBox}>
                 <h1 className={style.mainText}>Lorem ipsum dolor sit amet consectetur.</h1>
                 <div className={style.firstLine}>
@@ -21,7 +22,7 @@ const Main = () => {
                     </button>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
