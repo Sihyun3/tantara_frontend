@@ -1,0 +1,42 @@
+.mainBox {
+    width: 1200px;
+    margin: 100px auto;
+}
+.mainText {
+    font-size: 50px;
+}
+.online {
+    width: 548px;
+    height: 328px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: bottom;
+
+}
+.offline {
+    width: 548px;
+    height: 328px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.musicSep {
+    width: 550px;
+    height: 243px;
+    margin-right: 50px;
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.community {
+    width: 550px;
+    height: 243px;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
