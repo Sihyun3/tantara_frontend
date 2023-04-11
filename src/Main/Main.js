@@ -6,18 +6,18 @@ const Main = () => {
                 <h1 className={style.mainText}>Lorem ipsum dolor sit amet consectetur.</h1>
                 <div className={style.firstLine}>
                     <button className={style.online}>
-                        온라인 합주
+                       <p>온라인 합주</p>
                     </button>
                     <button className={style.offline}>
-                        오프라인 합주
+                        <p>오프라인 합주 </p>
                     </button>
                 </div>
                 <div className={style.secondLine}>
                     <button className={style.musicSep}>
-                        음원 분리
+                        <p>음원 분리</p>
                     </button>
                     <button className={style.community}>
-                        커뮤니티
+                        <p>커뮤니티</p>
                     </button>
                 </div>
             </div>
